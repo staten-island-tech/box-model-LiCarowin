@@ -1,0 +1,26 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 25vh;
+    background-color: rgb(255, 174, 0); 
+    position: absolute;
+  }
+  
+body {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(224, 231, 181, 0.5),
+        rgba(231, 217, 138, 0.5)
+      ),
+      url(media/foliage.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+div {
+    height: 100vh;
+    text-align: center;
+  }
